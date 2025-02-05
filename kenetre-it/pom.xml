@@ -12,6 +12,9 @@
   <version>${revision}</version>
   <name>kenetre-it</name>
   <url>https://github.com/GenomiqueENS/Kenetre</url>
+  <properties>
+    <maven.deploy.skip>false</maven.deploy.skip>
+  </properties>
   <dependencies>
     <dependency>
       <groupId>fr.ens.biologie.genomique</groupId>
